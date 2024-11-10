@@ -4,23 +4,24 @@ html {
 }
 .title{
     position: relative;
-    left: 300px;
-    font-size: 100px;
+    bottom: 10vh;
+    left: 30vh;
+    font-size: 20vh;
 }
 
 .Revi{
-    height: 250px;
+    height: 50vh;
     position: absolute;
-    top:300px;
-    bottom: 400px;
-    left: 1000px;
+    top:20vh;
+    bottom: 20vh;
+    left:160vh;
 }
 .Revi2{
-    height: 250px;
+    height: 50vh;
     position: absolute;
-    top:580px;
-    bottom: 400px;
-    left: 1000px;
+    top:80vh;
+    bottom: 30vh;
+    left: 130vh;
 }
 
 @keyframes scrollUp {
@@ -50,37 +51,40 @@ html {
     opacity: 0;
 }
 .p1{
-    font-size:20px;
+    bottom: 20vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left: 20vh;
     animation: scrollUp 1s ease-out forwards;
     -webkit-animation: scrollUp 1s ease-out forwards;
-    max-width: 600px;
+    max-width: 100vh;
     visibility: visible;
     opacity: 1;
 }
 
 
 .p2{
-    font-size:20px;
+    bottom: 15vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left: 20vh;
     
     animation: scrollUp 1s ease-out forwards;
     -webkit-animation: scrollUp 1s ease-out forwards;
-    max-width: 600px;
+    max-width: 100vh;
     animation-delay: 1s;
     visibility: visible;
     opacity: 0;
 }
 
 .p3{
-    font-size:20px;
+    bottom: 10vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left: 20vh;
     animation: scrollUp 1s ease-out forwards;
     -webkit-animation: scrollUp 1s ease-out forwards;
-    max-width: 600px;
+    max-width: 100vh;
     animation-delay: 2s;
     visibility: visible;
     opacity: 0;

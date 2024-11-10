@@ -5,12 +5,13 @@
 
 .title{
     position: relative;
-    left: 300px;
-    font-size: 100px;
+    bottom: 10vh;
+    left: 22vh;
+    font-size: 20vh;
 }
 
 .p1,.p2,.p3{
-    max-width: 600px;
+    max-width: 100vh;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -33,18 +34,20 @@
 }
 
 .p1{
-    font-size:20px;
+    bottom: 20vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left:20vh;
     animation: slide 1s ease-out forwards;
     -webkit-animation: slide 1s ease-out forwards;
 
 }
 
 .p2{
-    font-size:20px;
+    bottom: 15vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left: 20vh;
     animation: slide 1s ease-out forwards;
     -webkit-animation: slide 1s ease-out forwards;
     animation-delay: 1s;
@@ -53,9 +56,10 @@
 }
 
 .p3{
-    font-size:20px;
+    bottom: 10vh;
+    font-size:3vh;
     position: relative;
-    left: 300px;
+    left: 20vh;
     animation: slide 1s ease-out forwards;
     -webkit-animation: slide 1s ease-out forwards;
     animation-delay: 2s;
